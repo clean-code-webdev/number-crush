@@ -1,0 +1,2 @@
+# number-crush
+Strategical game
