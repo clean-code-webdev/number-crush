@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #191919;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#not-available {
+  color: white;
+  font-size: 2rem;
+  line-height: 7rem;
+  width: 90%;
+  text-align: center;
+}
+
+#info {
+  width: 50rem;
+  height: 10rem;
+  margin-bottom: 1rem;
+  color: white;
+  letter-spacing: 0.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#info h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+#info #moves,
+#info #next-number {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin: 1rem;
+}
+
+#board {
+  width: 50rem;
+  height: 50rem;
+  background: #242424;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#board .tile {
+  width: calc(50rem / 5);
+  height: calc(50rem / 5);
+  border: 0.1rem solid black;
+  font-size: 4rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+#board .tile:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+#board .tile .crown {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
